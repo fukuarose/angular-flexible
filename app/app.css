@@ -1,0 +1,90 @@
+/* app css stylesheet */
+
+/*.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}*/
+a{text-decoration: none;}
+.footer_list{
+	height: 1.5rem;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+.footer_list{padding: 0 5%;}
+.footer_list ul{height: 100%;width: 90%;}
+.footer_list li{height: 1.5rem;width: 33%;float: left;text-align: center;}
+.footer_list li a{display: block;height: 1.5rem;padding-top: .2rem;}
+@font-face {
+  font-family: 'iconfont';  /* project id 449443 */
+  src: url('//at.alicdn.com/t/font_449443_gsq8vjksb07wrk9.eot');
+  src: url('//at.alicdn.com/t/font_449443_gsq8vjksb07wrk9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_449443_gsq8vjksb07wrk9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_449443_gsq8vjksb07wrk9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_449443_gsq8vjksb07wrk9.svg#iconfont') format('svg');
+}
+.iconfont{ font-family:"iconfont"
+ !important; font-size:24px;font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale;}
+.icon_second{display: block;color: #53BA22;}
+.text_info{display: block;color: #8B8C8C;}
+
+/*view2.css*/
+.title_one{height: 1.5rem;line-height: 1.5rem;font-size: 16px;font-weight: 700;padding-left: 0.3rem;border-top: 1px solid #EEEEEE;}
+.class_two{font-size: 14px;height: 1rem;line-height: 1rem;}
+.intro_list li a{margin-left: 2rem;}
+.small_icon{height: 1rem;vertical-align: middle;margin-right: 0.2rem;}
+.intro_list li{border-top: 1px solid #EEEEEE;}
+.intro_list li a{color: #626363;}
+.class_one{border-bottom: 0.3rem solid #EEEEEE;}
+.more{    float: right;
+    margin-right: 0.8rem;
+    color: #8B8C8C;
+    font-size: 22px;}
+/*view3.css*/
+.mine{height: 1rem;text-align: center;font-size: 16px;line-height: 1rem;font-weight: 600;}
+.info_list li{float: left;width: 50%;text-align: center;height: 1rem;line-height: 1rem;}
+.bg{height: 5rem;background: url(img/page2.jpg) no-repeat;background-position: 100% 100%;background-size: cover;position: relative;padding-top: 1rem;}
+.picture{display:block;width: 2rem;height:2rem;margin: 0 auto;    border-radius: 50%;}
+.user_name{display: block;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: sans-serif;}
+.info_list{width: 100%;
+    height: 1rem;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: 0;}
+.info_list li a{color: #FFFFFF;font-size: 16px;}
+.tab-content{width: 100%;position: relative;height: 11rem;}
+.tab-content .tab_list{position: absolute;top:0;left: 0;width: 100%;display: none;}
+.click_it{background: orange;}
+.tab-content,.tab-content div{background-color:#EEEEEE ;}
+.img_left{float: left;width: 30%;margin-left: 3%;}
+.img_left img{height: 100%;width: 100%;}
+.course_list li,.course_list li div{height:2rem;}
+.course_list li{border-top: 1px solid #FFFFFF;padding: 0.3rem 0;}
+.text_right{width: 60%;margin-left: 40%;}

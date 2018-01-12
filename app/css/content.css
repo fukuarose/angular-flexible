@@ -1,0 +1,10 @@
+ul,li{list-style: none;}
+.content-caursol{height: 4rem;position: relative;}
+.img-outer{height: 100%;}
+.img-outer img{width: 100%;height: 4rem;}
+.img_list{display: block;position: absolute;left: 0;top: 0;}
+.slide_list{position: absolute;bottom: 0.2667rem;left: 45%;}
+.slide_list li{width: 0.2rem;height: 0.2rem;background: orange;float: left;margin-left: 0.2667rem;border-radius: 50%;}
+.active{background-color: red !important;}
+.tiaofu{padding: 20px 20px 0 20px;text-align: center;}
+.tiaofu img{width: 90%;}

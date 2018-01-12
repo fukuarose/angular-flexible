@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<script rel="stylesheet" type="text/css" href="flexible.js"/>--> 
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/research.css" />
+  <link rel="stylesheet" href="css/list.css">
+  <link rel="stylesheet" href="css/commend.css">
+</head>
+<body ng-controller="myCtrl">
+		
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div ng-view></div>
+  <div class="footer_list">
+		<ul class="menu">
+	    <li><a href="#!/view1"><i class="iconfont icon_second">&#xe602;</i><span class="text_info">首页</span></a></li>
+	    <li><a href="#!/view2"><i class="iconfont icon_second">&#xe631;</i><span class="text_info">全部课程</span></a></li>
+	    <li><a href="#!/view3"><i class="iconfont icon_second">&#xe603;</i><span class="text_info">我的信息</span></a></li>
+	  </ul>
+	</div>
+  <!--<de-footer></de-footer>-->
+  <!-- In production use: 
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="angular.js"></script>
+  <script src="angular-route.js"></script>
+  <script src="jquery-3.0.0.min.js"></script>
+  <script src="../flexible.js"></script>
+  <script src="../flexible_css.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="view3/view3.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/list.js"></script>
+  <script src="js/commend.js"></script>
+  <script type="text/javascript" src="js/research.js" ></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

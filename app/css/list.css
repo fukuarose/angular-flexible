@@ -1,0 +1,6 @@
+.li_list{width: 90%;margin: 0px auto;height: 4rem;padding: 0.5rem 0;}
+.li_list li{float: left;width:25%;text-align: center;margin-top: 7%;}
+.li_list li a{display:inline-block;}
+.li_list li a img{width: 80%;}
+.li_list li span{display: block;height: 1rem;line-height: 1rem;}
+.boundary{height: 0.3rem;background: #EEEEEE;}
